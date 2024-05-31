@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  padding: 0;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  gap: 15px;
+}
+.container input{
+  padding: 10px 3px;
+  width: 320px;
+  color: #111;
+  font-size: 20px;
+
+}
+.container button{
+  padding: 10px 3px;
+  width: 320px;
+  background: rgb(3, 48, 66);
+  border: none;
+  font-size: 20px;
+  color: #fff;
+}
